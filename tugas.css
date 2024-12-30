@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(135deg, #f0f4f8, #d3eaf2);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+header h1 {
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  background-color: blue;
+  padding: 10px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  color: black;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #2c1ad1;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  padding: 12px 15px;
+  background-color: #ecf5ff;
+  border: 1px solid #cfe4f9;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#tugas-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+#tugas-input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #cfe4f9;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+button {
+  padding: 12px 18px;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: #2a7bbd;
+}
+
+#tugas-list li button {
+  background-color: #e74c3c;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+  border: none;
+}
+
+#tugas-list li button:hover {
+  background-color: #c0392b;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
